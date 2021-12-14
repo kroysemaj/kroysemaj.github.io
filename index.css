@@ -1,3 +1,33 @@
 .container {
   margin-top: 4rem;
 }
+
+.easter-egg {
+  position: fixed;
+  display: none;
+}
+
+#luigi {
+  top: 21%;
+  right: 9%;
+}
+
+#mario {
+  top: 3%;
+  left: 16%;
+}
+
+#spongebob {
+  bottom: 9%;
+  left: 28%;
+}
+
+#squidward1 {
+  bottom: 31%;
+  right: 19%;
+}
+
+#squidward2 {
+  top: 23%;
+  right: 51%;
+}
