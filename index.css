@@ -1,5 +1,52 @@
+@font-face {
+  font-family: "SuperMario"; /*a name to be used later*/
+  src: url("assets/SuperMario256.ttf"); /*URL to font*/
+}
+
+html {
+  height: 100%;
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(#e6001f, #fff7e7);
+  font-family: "SuperMario";
+}
+
 .container {
-  margin-top: 4rem;
+  margin-top: 15rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 5rem;
+  }
+}
+
+.welcome {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 4rem;
+  color: #fff7e7;
+}
+
+.logo {
+  height: 300px;
+  margin-bottom: 3rem;
+}
+
+.btn-lg {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #fff7e7;
+  border-color: #fff7e7;
+  width: 20rem;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: #128bd1;
+  border-color: #128bd1;
 }
 
 .easter-egg {
