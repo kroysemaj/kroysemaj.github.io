@@ -10,7 +10,7 @@ const easterEggs = [
 $(() => {
   const $krabby = $("#krabby-patty");
   let hardMode = false;
-  startKrabbyCatchGame();
+  startWhackAPatty();
 
   $("#secret").click(() => $(`#${randomizeEl()}`).fadeToggle(250));
 
@@ -35,7 +35,7 @@ $(() => {
       .slideToggle("fast");
   });
 
-  function startKrabbyCatchGame() {
+  function startWhackAPatty() {
     setInterval(() => {
       const settings = {
         slideSpeed: 400,
