@@ -69,7 +69,7 @@ function randomizeEl() {
   } else if (roll > 35 && roll <= 60) {
     return "squidward2";
   } else if (roll > 50 && roll <= 75) {
-    return "spongebob";
+    return "Spongebob";
   } else if (roll > 75 && roll <= 95) {
     return "pierce";
   } else if (roll > 95 && roll <= 97) {
