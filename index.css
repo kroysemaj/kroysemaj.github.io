@@ -17,12 +17,6 @@ body {
   margin-top: 15rem;
 }
 
-@media (max-width: 768px) {
-  .container {
-    margin-top: 5rem;
-  }
-}
-
 .welcome {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
@@ -31,8 +25,7 @@ body {
 }
 
 .logo {
-  height: 300px;
-  margin-bottom: 3rem;
+  height: 400px;
 }
 
 .btn-lg {
@@ -42,6 +35,7 @@ body {
   border-color: #fff7e7;
   width: 20rem;
   font-size: 2rem;
+  margin-top: 3rem;
 }
 
 .btn:hover {
@@ -64,17 +58,41 @@ body {
   left: 16%;
 }
 
-#spongebob {
-  bottom: 9%;
-  left: 28%;
+#krabby-patty {
+  position: fixed;
+  display: none;
 }
 
-#squidward1 {
-  bottom: 31%;
-  right: 19%;
+#hard-mode {
+  position: fixed;
+  display: none;
+  bottom: 5%;
+  right: 5%;
 }
 
-#squidward2 {
-  top: 23%;
-  right: 51%;
+.form-check-label {
+  font-size: 1.2rem;
+  color: #128bd1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 3rem;
+  }
+  .welcome {
+    font-size: 3rem;
+  }
+
+  .logo {
+    height: 250px;
+  }
+
+  .btn-lg {
+    width: 15rem;
+    font-size: 1.5rem;
+  }
+
+  .easter-egg {
+    width: 50%;
+  }
 }
